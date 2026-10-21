@@ -12,23 +12,24 @@
     "mcp:http": "npx tsx mcp-server/http-server.ts"
   },
   "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-router-dom": "^6.30.1",
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "@vercel/analytics": "^2.0.1",
     "fuse.js": "^7.0.0",
     "lucide-react": "^0.462.0",
-    "@modelcontextprotocol/sdk": "^1.30.0"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.1"
   },
   "devDependencies": {
+    "@types/node": "^22.19.19",
     "@types/react": "^18.3.23",
     "@types/react-dom": "^18.3.7",
-    "@types/node": "^22.19.19",
     "@vitejs/plugin-react-swc": "^3.11.0",
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.17",
-    "typescript": "^5.8.3",
     "tsx": "^4.19.0",
+    "typescript": "^5.8.3",
     "vite": "^5.4.19"
   }
 }
