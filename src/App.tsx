@@ -57,13 +57,7 @@ export const App: React.FC = () => {
             <span>Targeted Documentation Directory for Humans &amp; AI Agents</span>
           </div>
 
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-[1.1]">
-            Find the Right{' '}
-            <span className="bg-gradient-to-r from-accent-400 via-neon-purple to-neon-cyan bg-clip-text text-transparent">
-              APIs &amp; Docs
-            </span>{' '}
-            for Any Task
-          </h1>
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-[1.1]">Mined Brain — <span className="bg-gradient-to-r from-accent-400 via-neon-purple to-neon-cyan bg-clip-text text-transparent">API Doc Directory</span></h1>
 
           <p className="text-sm sm:text-base text-surface-300 leading-relaxed max-w-2xl mx-auto">
             Explore 100+ production APIs with curated schemas, auth blueprints, and quickstarts.
@@ -174,7 +168,7 @@ export const App: React.FC = () => {
           </a>
         </div>
         <p className="text-surface-500 text-[11px]">
-          API Docs Hub &bull; Empowering Developers and AI Agents with Clean, Targeted API Intelligence.
+          Mined Brain — API Doc Directory &bull; Empowering Developers and AI Agents with Clean, Targeted API Intelligence.
         </p>
       </footer>
 

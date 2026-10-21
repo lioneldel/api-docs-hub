@@ -22,15 +22,13 @@ export const Navbar: React.FC<NavbarProps> = ({
           </div>
           <div>
             <div className="flex items-center space-x-2">
-              <span className="text-xl font-bold tracking-tight bg-gradient-to-r from-white via-surface-100 to-accent-200 bg-clip-text text-transparent">
-                API Docs Hub
-              </span>
+              <span className="text-xl font-bold tracking-tight bg-gradient-to-r from-white via-surface-100 to-accent-200 bg-clip-text text-transparent">Mined Brain</span><span className="hidden sm:inline text-xs font-semibold text-accent-300 tracking-wide border-l border-white/10 pl-2">API Doc Directory</span>
               <span className="text-[10px] font-semibold tracking-wider uppercase px-2 py-0.5 rounded-full bg-accent-500/20 text-accent-300 border border-accent-500/30">
                 MCP Ready
               </span>
             </div>
             <p className="text-xs text-surface-300 hidden sm:block">
-              Smart Directory & Targeted LLM Documentation Server
+              Mined Brain — Targeted LLM Documentation Directory & MCP Server
             </p>
           </div>
         </div>
