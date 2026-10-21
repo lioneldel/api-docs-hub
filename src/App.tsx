@@ -1,4 +1,5 @@
 import React, { useState, useMemo } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { ALL_APIS, CATEGORIES_WITH_COUNTS } from './data/registry';
 import { searchApis } from './data/search-index';
 import { ApiEntry } from './types/api';
@@ -200,6 +201,7 @@ export const App: React.FC = () => {
         onRemoveId={(id) => setComparedApiIds((prev) => prev.filter((i) => i !== id))}
         onClearAll={() => setComparedApiIds([])}
       />
+      <Analytics />
     </div>
   );
 };
